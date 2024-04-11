@@ -1,0 +1,83 @@
+.container {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 50px auto;
+    background-image: url('background-image.jpg'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(203, 112, 203, 0.8);
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"], select, input[type="date"] {
+    width: 70%;
+    padding: 10px;
+    
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 2px;
+    width: 100%; /* Expand the list to fill the container */
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 3px solid #010000; /* Add border around each task */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    display: flex;
+    align-items: center;
+    width: auto /* Expand the list item to fill the container */
+}
+
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.task-number {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.task-color {
+    width: 20px;
+
+    height: 30px;
+    
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.task-number,
+.task-priority,
+.task-due-date {
+    margin-right: 20px; /* Adjust spacing as needed */
+}
+
